@@ -15,3 +15,17 @@ div.logo {
     position: relative;
     align-self: center;
 }
+
+div.search-input {
+    background-color: blue;
+    display: inline-block;
+    width: 540px;
+    height: 45px;
+    top: 400px;
+    right: 500px;
+    position: absolute;
+    align-self: center;
+    /* z-index: 2; */
+}
+
+/* magnifier width 50px */
