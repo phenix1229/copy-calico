@@ -2,8 +2,10 @@ body {
     background-color: #F7F7F7;
 }
 
-div {
+div.main {
     text-align: center;
+    width: 100vmax;
+    height: 100vmax;
 }
 
 div.logo {
@@ -16,16 +18,47 @@ div.logo {
     align-self: center;
 }
 
+div.search-bar {
+    background-color: orange;
+    display: block;
+    width: 100vmax;
+    height: 45px;
+    top: 420px;
+    position: absolute;
+}
 div.search-input {
     background-color: blue;
     display: inline-block;
-    width: 540px;
+    width: 490px;
     height: 45px;
-    top: 400px;
-    right: 500px;
-    position: absolute;
+    top: 405px;
+    /* padding: 5px 0 5px 0; */
+    /* right: 25px; */
+    /* right: 500px; */
+    /* position: relative; */
     align-self: center;
+    align-content: unset;
     /* z-index: 2; */
 }
 
+a.search-button {
+    background-color: blueviolet;
+    display: block;
+    width: 50px;
+    height: 45px;
+    top: 405px;
+    align-self: right;
+    position: relative;
+    /* right: 5px; */
+}
+
+input.search-text {
+    background-color: orangered;
+    display: block;
+    width: 440px;
+    height: 45px;
+    top: 405px;
+    align-self: left;
+    border: 1 0 1 1 solid black;
+}
 /* magnifier width 50px */
