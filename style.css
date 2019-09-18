@@ -41,24 +41,34 @@ div.search-input {
     /* z-index: 2; */
 }
 
-a.search-button {
-    background-color: blueviolet;
+div.search-button {
     display: block;
     width: 50px;
     height: 45px;
-    top: 405px;
+    /* top: 405px; */
     align-self: right;
-    position: relative;
+    position: unset;
+}
+
+a.search-button {
+    /* background-color: blueviolet; */
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    top: 405px;
+    /* align-self: right; */
+    /* position: absolute; */
     /* right: 5px; */
 }
 
 input.search-text {
     background-color: orangered;
     display: block;
-    width: 440px;
+    width: 430px;
     height: 45px;
-    top: 405px;
-    align-self: left;
+    /* top: 405px; */
+    align-self: auto;
     border: 1 0 1 1 solid black;
 }
+
 /* magnifier width 50px */
